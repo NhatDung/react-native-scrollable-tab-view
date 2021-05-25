@@ -21,7 +21,7 @@ const DefaultTabBar = createReactClass({
     textStyle: Text.propTypes.style,
     tabStyle: ViewPropTypes.style,
     renderTab: PropTypes.func,
-    underlineStyle: ViewPropTypes.style,
+    tabBarUnderlineStyle: ViewPropTypes.style,
   },
 
   getDefaultProps() {
@@ -105,11 +105,11 @@ const styles = StyleSheet.create({
     height: 50,
     flexDirection: 'row',
     justifyContent: 'space-around',
-    borderWidth: 1,
-    borderTopWidth: 0,
-    borderLeftWidth: 0,
-    borderRightWidth: 0,
-    borderColor: '#ccc',
+    // borderWidth: 1,
+    // borderTopWidth: 0,
+    // borderLeftWidth: 0,
+    // borderRightWidth: 0,
+    // borderColor: '#ccc',
   },
 });
 
